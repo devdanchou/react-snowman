@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`matches snapshot 1`] = `
+exports[`snapshot test for stability 1`] = `
 <div>
   <div
     class="Snowman"
@@ -19,7 +19,6 @@ exports[`matches snapshot 1`] = `
     <p
       class="Snowman-word"
     >
-      _
       _
       _
       _
@@ -187,7 +186,9 @@ exports[`matches snapshot 1`] = `
         z
       </button>
     </p>
-    <button>
+    <button
+      class="Snowman-restart"
+    >
       Restart
     </button>
   </div>

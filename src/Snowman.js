@@ -99,7 +99,7 @@ function Snowman({
       {lose
         ? <p className="Snowman-lose">"You lose!"</p>
         : <p className="Snowman-ltrs"> {generateButtons()}</p>}
-      <button onClick={restart}>Restart</button>
+      <button className="Snowman-restart" onClick={restart}>Restart</button>
     </div>
   );
 }
